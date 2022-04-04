@@ -1,4 +1,4 @@
-## <img src="https://emojis.slackmojis.com/emojis/images/1643515328/13471/wave.gif?1643515328" width="30"> Hi, I'm Evan <img src="https://media1.giphy.com/media/NeINOsLLPNP6U/giphy.gif" width="30">
+## <img src="https://emojis.slackmojis.com/emojis/images/1643515328/13471/wave.gif?1643515328" width="30"> Hi! I'm Evan <img src="https://media1.giphy.com/media/NeINOsLLPNP6U/giphy.gif" width="30">
 CS major at University of Iowa <img src="https://media1.giphy.com/media/cIn5fTcjnKhStIeAef/giphy.gif" width="50">
 
 ### More about me <img src="https://media3.giphy.com/media/RAGUpYLsOX2Pm/giphy.gif" width="25">
@@ -16,8 +16,7 @@ public class ComputerProgrammer {
     public static void main(String[] args) {
         ComputerProgrammer me = new ComputerProgrammer(
                 "Evan", "He/Him", "Snapchat data tools", 18,
-                new ArrayList<>(List.of(
-                        "Java", "Python", "Swift", "HTML", "JavaScript"))
+                new ArrayList<>(List.of("Java", "Python", "Swift", "HTML", "JavaScript"))
         );
     }
 }
