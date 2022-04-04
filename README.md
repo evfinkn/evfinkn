@@ -11,7 +11,7 @@ public class ComputerProgrammer {
     private int age;
     private List<String> code;
 
-    public ComputerProgrammer(String name, String pronouns, String currentProject, int age, List<String> code) { . . . }
+    public ComputerProgrammer(String name, String pronouns, String currentProject, int age, List<String> code) {...}
 
     public static void main(String[] args) {
         ComputerProgrammer me = new ComputerProgrammer(
