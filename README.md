@@ -1,16 +1,24 @@
-### Hi there 👋
+## <img src="https://emojis.slackmojis.com/emojis/images/1643515328/13471/wave.gif?1643515328" width="30"> Hi, I'm Evan <img src="https://media1.giphy.com/media/NeINOsLLPNP6U/giphy.gif" width="30">
+CS major at University of Iowa <img src="https://media1.giphy.com/media/cIn5fTcjnKhStIeAef/giphy.gif" width="50">
 
-<!--
-**evfinkn/evfinkn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### More about me <img src="https://media3.giphy.com/media/RAGUpYLsOX2Pm/giphy.gif" width="25">
+```java
+import java.util.ArrayList;
+import java.util.List;
 
-Here are some ideas to get you started:
+public class ComputerProgrammer {
+    private String name, pronouns, currentProject;
+    private int age;
+    private List<String> code;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public ComputerProgrammer(String name, String pronouns, String currentProject, int age, List<String> code) { . . . }
+
+    public static void main(String[] args) {
+        ComputerProgrammer me = new ComputerProgrammer(
+                "Evan", "He/Him", "Snapchat data tools", 18,
+                new ArrayList<>(List.of(
+                        "Java", "Python", "Swift", "HTML", "JavaScript"))
+        );
+    }
+}
+```
