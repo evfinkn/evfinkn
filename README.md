@@ -6,15 +6,15 @@ CS major at University of Iowa <img src="https://media1.giphy.com/media/cIn5fTcj
 import java.util.ArrayList;
 import java.util.List;
 
-public class ComputerProgrammer {
+public class SoftwareDev {
     private String name, pronouns, currentProject;
     private int age;
     private List<String> code;
 
-    public ComputerProgrammer(String name, String pronouns, String currentProject, int age, List<String> code) {...}
+    public SoftwareDev(String name, String pronouns, String currentProject, int age, List<String> code) {...}
 
     public static void main(String[] args) {
-        ComputerProgrammer me = new ComputerProgrammer(
+        SoftwareDev me = new SoftwareDev(
                 "Evan", "He/Him", "Snapchat data tools", 18,
                 new ArrayList<>(List.of("Java", "Python", "Swift", "HTML", "JavaScript"))
         );
