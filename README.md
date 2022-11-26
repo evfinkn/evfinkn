@@ -2,22 +2,21 @@
 CS major at University of Iowa <img src="https://media1.giphy.com/media/cIn5fTcjnKhStIeAef/giphy.gif" width="50">
 
 ### More about me <img src="https://media3.giphy.com/media/RAGUpYLsOX2Pm/giphy.gif" width="25">
-```java
-import java.util.ArrayList;
-import java.util.List;
+```python
+import dataclasses
 
-public class SoftwareDev {
-    private String name, pronouns, currentProject;
-    private int age;
-    private List<String> code;
 
-    public SoftwareDev(String name, String pronouns, String currentProject, int age, List<String> code) {...}
+@dataclasses.dataclass
+class SoftwareDeveloper:
+    name: str
+    age: int
+    pronouns: str
+    languages: list[str]
+    current_project: str
+    
 
-    public static void main(String[] args) {
-        SoftwareDev me = new SoftwareDev(
-                "Evan", "He/Him", "Snapchat data tools", 18,
-                new ArrayList<>(List.of("Java", "Python", "Swift", "HTML", "JavaScript"))
-        );
-    }
-}
+me = SoftwareDeveloper(
+    "Evan", 19, "he/him",
+    ["Python", "JavaScript", "Java", "HTML", "C", "SQL", "Swift"],
+    "Speechviz")
 ```
