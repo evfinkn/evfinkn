@@ -5,18 +5,16 @@ CS major at University of Iowa <img src="https://media1.giphy.com/media/cIn5fTcj
 ```python
 import dataclasses
 
-
 @dataclasses.dataclass
 class SoftwareDeveloper:
     name: str
     age: int
     pronouns: str
-    languages: list[str]
+    main_languages: list[str]
     current_project: str
-    
 
 me = SoftwareDeveloper(
-    "Evan", 19, "he/him",
-    ["Python", "JavaScript", "Java", "HTML", "C", "SQL", "Swift"],
+    "Evan", 20, "he/him",
+    ["Python", "JavaScript", "Java"],
     "Speechviz")
 ```
